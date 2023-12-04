@@ -30,6 +30,8 @@ class Data:
         """ Constructor for the Data object.
 
         :param test_size (float): The size of the testing data. Default value is 0.25.
+        :param random_state (int): The random state. Default value is 2.
+        :param include_images (bool): If True, the images data will be loaded. Default value is True.
         """
         df: pd.DataFrame = pd.read_csv('src/data/data.csv')
 

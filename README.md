@@ -1,10 +1,10 @@
-# leaf_classification
+# Leaf classification
 
 This project is a part of the IFT712 course at Université de Sherbrooke. It was made in collaboration with [Alexandre Theisse](https://github.com/AlexTheisse) and [Tom Sartori](https://github.com/tom-sartori).
 
-The goal of this project is to classify leaves from images using several machine learning algorithms available in the `scikit-learn` library. The dataset used is the [Folio Leaf Dataset](https://www.kaggle.com/c/leaf-classification/data) from Kaggle. 
+The goal of this project is to classify leaves from features extracted from their images and from the images themselves using several classification algorithms available in the `scikit-learn` library. The dataset used is the [Folio Leaf Dataset](https://www.kaggle.com/c/leaf-classification/data) from Kaggle.
 
-## Contributeurs
+## Contributors
 
 |          Nom          | Matricule  |   CIP    |                                        Mail                                         |
 |:---------------------:|:----------:|:--------:|:-----------------------------------------------------------------------------------:|
@@ -15,9 +15,15 @@ The goal of this project is to classify leaves from images using several machine
 ## Getting Started
 
 ### Requirements
+Install the requirements using the following command:
+```bash
+pip install -r requirements.txt
+```
 
 ### Running the code
 
-## Used algorithms
-
-
+The code is split into 4 notebooks:
+- `features_classification.ipynb`: Classification using only the features extracted from the images
+- `features_hyperparam_search.ipynb`: Hyperparameter search for the features classification
+- `image_classification.ipynb`: Classification using only the images
+- `image_hyperparam_search.ipynb`: Hyperparameter search for the image classification

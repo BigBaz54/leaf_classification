@@ -4,6 +4,8 @@ This project is a part of the IFT712 course at Université de Sherbrooke. It was
 
 The goal of this project is to classify leaves from features extracted from their images and from the images themselves using several classification algorithms available in the `scikit-learn` library. The dataset used is the [Folio Leaf Dataset](https://www.kaggle.com/c/leaf-classification/data) from Kaggle.
 
+The project report is available [here](rapport/rapport.pdf) (in French).
+
 ## Contributors
 
 |          Nom          | Matricule  |   CIP    |                                        Mail                                         |
